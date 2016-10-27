@@ -1,6 +1,6 @@
-# Cordova sqlite evcore-extbuild-free PhoneGap Build Windows 10 ARM test app
+# Cordova sqlite evcore-extbuild-free PhoneGap Build Windows 10 x86 test app
 
-PhoneGap Build test app with `cordova-sqlite-evcore-extbuild-free` for Windows 10 ARM architecture
+PhoneGap Build test app with `cordova-sqlite-evcore-extbuild-free` for Windows 10 x86 architecture
 
 **AUTHOR:** [@brodybits (Christopher J. Brody aka Chris Brody)](https://github.com/brodybits)
 
