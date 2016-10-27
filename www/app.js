@@ -1,3 +1,4 @@
+/* **
 var database = null;
 
 var nextUser = 101;
@@ -124,6 +125,7 @@ function deleteRecords() {
     ++nextUser;
   });
 }
+// */
 
 function nativeAlertTest() {
   navigator.notification.alert('Native alert test message');
@@ -135,6 +137,7 @@ function goToPage2() {
 
 document.addEventListener('deviceready', function() {
   $('#native-alert-test').click(nativeAlertTest);
+  /* **
   $('#echo-test').click(echoTest);
   $('#self-test').click(selfTest);
   $('#reload').click(reload);
@@ -144,7 +147,10 @@ document.addEventListener('deviceready', function() {
   $('#add-record').click(addRecord);
   $('#add-json-records-after-delay').click(addJSONRecordsAfterDelay);
   $('#delete-records').click(deleteRecords);
+  // */
   $('#location-page2').click(goToPage2);
 
+  /* **
   initDatabase();
+  // */
 });
